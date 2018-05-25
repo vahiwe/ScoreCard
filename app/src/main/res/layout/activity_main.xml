@@ -149,6 +149,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:progress="0"
+                        android:scaleX="-1"
                         style="@android:style/Widget.ProgressBar.Horizontal" />
                 </LinearLayout>
 
@@ -196,6 +197,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:progress="0"
+                        android:scaleX="-1"
                         style="@android:style/Widget.ProgressBar.Horizontal" />
                 </LinearLayout>
 
@@ -245,6 +247,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:progress="0"
+                        android:scaleX="-1"
                         style="@android:style/Widget.ProgressBar.Horizontal" />
                 </LinearLayout>
 
@@ -292,6 +295,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:progress="0"
+                        android:scaleX="-1"
                         style="@android:style/Widget.ProgressBar.Horizontal" />
                 </LinearLayout>
 
