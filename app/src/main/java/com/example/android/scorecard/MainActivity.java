@@ -183,17 +183,17 @@ public class MainActivity extends AppCompatActivity {
     }
     public void barShotByA (int score) {
         ProgressBar simpleProgressBar=(ProgressBar)findViewById(R.id.Barshotsa);
-        simpleProgressBar.setMax(20);
+        simpleProgressBar.setMax(50);
         simpleProgressBar.setProgress(score);
     }
     public void barPenByA (int score) {
         ProgressBar simpleProgressBar=(ProgressBar)findViewById(R.id.Barpena);
-        simpleProgressBar.setMax(20);
+        simpleProgressBar.setMax(10);
         simpleProgressBar.setProgress(score);
     }
     public void barHitByA (int score) {
         ProgressBar simpleProgressBar=(ProgressBar)findViewById(R.id.Barhita);
-        simpleProgressBar.setMax(20);
+        simpleProgressBar.setMax(50);
         simpleProgressBar.setProgress(score);
     }
     public void barPimByA (int score) {
@@ -203,17 +203,17 @@ public class MainActivity extends AppCompatActivity {
     }
     public void barShotByB (int score) {
         ProgressBar simpleProgressBar=(ProgressBar)findViewById(R.id.Barshotsb);
-        simpleProgressBar.setMax(20);
+        simpleProgressBar.setMax(50);
         simpleProgressBar.setProgress(score);
     }
     public void barPenByB (int score) {
         ProgressBar simpleProgressBar=(ProgressBar)findViewById(R.id.Barpenb);
-        simpleProgressBar.setMax(20);
+        simpleProgressBar.setMax(10);
         simpleProgressBar.setProgress(score);
     }
     public void barHitByB (int score) {
         ProgressBar simpleProgressBar=(ProgressBar)findViewById(R.id.Barhitb);
-        simpleProgressBar.setMax(20);
+        simpleProgressBar.setMax(50);
         simpleProgressBar.setProgress(score);
     }
     public void barPimByB (int score) {
